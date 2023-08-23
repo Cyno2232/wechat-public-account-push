@@ -63,11 +63,15 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ocQDK6JAOooGFsDX_BbaWqcXlox8',
+      id: 'ocQDK6LsbkE8Ebdf4HEY1PhO1KsA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'vOxLPiIPtk379-nbXkVCwXhXkNFNNT87GI3knEfrR3s',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '05-17',
+      // 所在省份或城市，也可以不填
+      province: '天津',
+      // 所在城市或县区
+      city: '津南',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         // {
@@ -80,9 +84,9 @@ const USER_CONFIG = {
         {
           type: '生日', name: '猪猪', year: '2001', date: '04-09',
         },
-        {
-          type: '节日', name: '恋爱纪念日', year: '2021', date: '06-16',
-        },
+        // {
+        //   type: '节日', name: '恋爱纪念日', year: '2021', date: '06-16',
+        // },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
