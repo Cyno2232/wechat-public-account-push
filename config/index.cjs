@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '天津',
+  CITY: '津南',
 
   // 功能开关,打开：true，关闭：false
   SWITCH: {
